@@ -13,3 +13,9 @@
 ## Session Storage 세션 스토리지
 
 ## Cookie 쿠키
+
+https://dev-jeenie.github.io/cs/browserStorage
+
+https://dev-jeenie.github.io/life/sameSiteCookie
+
+https://dev-jeenie.github.io/cs/CookieSession
