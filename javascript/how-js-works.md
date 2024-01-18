@@ -29,3 +29,5 @@ https://www.frontendinterviewhandbook.com/kr/javascript-questions/#foreach-%EB%A
 
 - [호이스팅](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
 - [JavaScript Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
+
+- [자바스크립트의 스코프와 클로저](https://meetup.nhncloud.com/posts/86)
