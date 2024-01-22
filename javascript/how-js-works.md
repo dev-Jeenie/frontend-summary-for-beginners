@@ -77,7 +77,7 @@ console.log("6 : final result ", result);
 `글로벌 실행 컨텍스트(Global Exection Context)`는 코드를 실행하기 전에 쌓이고, 모든 코드를 실행하면 제거된다.
 `함수 실행 컨텍스트(Function Execution Context)`는 호출할 때 쌓이고 호출이 끝나면 제거된다.
 
-![callstack-excution-context](https://miro.medium.com/v2/resize%253Afit%253A1100/1%252AdUl6qPEaDJJTXWythQsEtQ.gif)
+![callstack-excution-context](https://miro.medium.com/v2/resize:fit:1100/1*dUl6qPEaDJJTXWythQsEtQ.gif)
 
 
 ## Execution Context와 Scope
