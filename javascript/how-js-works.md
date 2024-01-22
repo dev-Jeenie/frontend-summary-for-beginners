@@ -27,7 +27,7 @@
 
 ### 예시
 
-ui.dev가 제작한 ![JavaScript Visualizer 도구](https://ui.dev/javascript-visualizer/)에서 실행 컨텍스트의 작동방식을 시각화해서 볼 수 있다.
+ui.dev가 제작한 [JavaScript Visualizer 도구](https://ui.dev/javascript-visualizer/)에서 실행 컨텍스트의 작동방식을 시각화해서 볼 수 있다.
 
 ![excution-context-visualized](/assets/javascript/excution-context-visualized.gif)
 
