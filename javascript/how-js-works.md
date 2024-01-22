@@ -1,8 +1,35 @@
+# Execution Context 실행 컨텍스트
+
+## 정의
+
+실행할 코드에 제공할 환경 정보들을 모아둔 객체.
+자바스크립트 엔진에 의해 만들어지고 사용되는 **코드 정보들을 담은 객체의 집합**이라고 할 수 있다.
+
+## 종류
+
+자바스크립트의 코드는 자신만의 실행 컨텍스트를 생성한다
+
+**Global 실행 컨텍스트** : 자바스크립트 엔진에 의해 기본적으로 생성
+**함수 실행 컨텍스트** : 함수가 실행될 때마다 생성
+**Eval 실행 컨텍스트** : eval 함수 내에서 생성
+
+- 1. `글로벌 실행 컨텍스트(Global Exection Context)` 생성
+- 2. 엔진이 스크립트 파일 실행
+- 3. 함수 호출할 때마다 `함수 실행 컨텍스트(Function Execution Context)` 생성
+
+주의 : 스크립트 파일을 실행하기 전에 글로벌 실행 컨텍스트를 생성하지만 함수는 호출할 때 생성된다는 점
+
+![excution-context-visualized](/assets/javascript/excution-context-visualized.gif)
+
+
+## 실행 컨텍스트 스택 (Execution Context Stack)
+
+실행 컨텍스트가 생성되면 실행컨텍스트 스택(=콜 스택)에 쌓이게 된다.
+
+코드를 실행하기 전 `글로벌 실행 컨텍스트(Global Exection Context)`가 쌓인다
+`함수 실행 컨텍스트(Function Execution Context)`
+
 # closer
-
-# 동기/비동기 함수 sync, async
-
-![sync, asylc](/assets/javascript/sync-async-console.png)
 
 # 변수 범위 (Variable Scope)
 
@@ -29,5 +56,6 @@ https://www.frontendinterviewhandbook.com/kr/javascript-questions/#foreach-%EB%A
 
 - [호이스팅](https://developer.mozilla.org/ko/docs/Glossary/Hoisting)
 - [JavaScript Hoisting](https://www.w3schools.com/js/js_hoisting.asp)
-
 - [자바스크립트의 스코프와 클로저](https://meetup.nhncloud.com/posts/86)
+- [[JS] 자바스크립트 실행 컨텍스트(Execution Context)란?](https://heycoding.tistory.com/86)
+- [실행 컨텍스트(Execution Context)](https://blog.burt.pe.kr/posts/skyfe79-blog.contents-1729427336-post-57/)
