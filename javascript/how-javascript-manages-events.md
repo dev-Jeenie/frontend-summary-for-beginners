@@ -1,6 +1,9 @@
 # call stack, event loop, and task queue
 
+![callstack-excution-context](/assets/javascript/event-loop.jpeg)
+
 https://medium.com/jsninja/call-stack-event-loop-and-task-queue-d49eff2ec7bb
+https://www.youtube.com/watch?v=v67LloZ1ieI
 
 # event delegation(이벤트 위임)
 
