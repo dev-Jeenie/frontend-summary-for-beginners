@@ -1,3 +1,21 @@
+# 자바스크립트는 이벤트를 어떻게 처리하는가?
+
+> 자바스크립트는 싱글스레드 기반으로 동작한다<br/>
+Node.js는 이벤트 루프를 기반으로 하는 싱글 스레드이다
+
+## Javascript Engine
+
+자바스크립트의 엔진의 종류
+- 크롬 V8
+- 사파리 Webkit
+- 파이어폭스 Spider Monkey
+
+구글의 V8이 대표적이고, Chrome과 Node.js 에서 사용한다.
+
+
+
+
+
 # call stack, event loop, and task queue
 
 ![callstack-excution-context](/assets/javascript/event-loop.jpeg)
